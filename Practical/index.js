@@ -1,9 +1,13 @@
-let arr=[2,3,4,5,6]
+let arr=["apple"]
 
-function square(curr,i){
-    arr[i] = curr * curr;
+function square(curr,i,arr){
+    arr[i]=curr.charAt(0).toLocaleUpperCase()+curr.slice(1)
 }
 
 arr.forEach(square)
 
 console.log(arr);
+
+
+// let a="apple"
+// a[0]=
