@@ -37,13 +37,13 @@ and reassembles them at the destination.
 This makes communication more <b>efficient</b> and <b>reliable</b>.
 
 
- <h1 style="color:#4A90E2;">🌐 Types of Web Architecture</h1>
+ # 🌐 Types of Web Architecture
 
 Web architecture is classified into tiers (or layers) based on how the **presentation**, **logic**, and **data** are separated across systems. Below are the main types:
 
 ---
 
-## <span style="color:#1ABC9C;">1️⃣ One-Tier Architecture (1-Tier)</span>
+## 1️⃣ One-Tier Architecture (1-Tier)
 
 All components — user interface, business logic, and data storage — exist on the **same machine**.  
 🛠️ Typically used for standalone desktop applications.  
@@ -53,7 +53,7 @@ All components — user interface, business logic, and data storage — exist on
 
 ---
 
-## <span style="color:#3498DB;">2️⃣ Two-Tier Architecture (2-Tier)</span>
+## 2️⃣ Two-Tier Architecture (2-Tier)
 
 Divides the system into two layers:
 - **Client** (presentation + business logic)
@@ -66,11 +66,11 @@ The client directly communicates with the database server.
 
 ---
 
-## <span style="color:#9B59B6;">3️⃣ Three-Tier Architecture (3-Tier)</span>
+## 3️⃣ Three-Tier Architecture (3-Tier)
 
 Has three separate layers:
-1. **Presentation Tier** – User interface (browser, app UI)
-2. **Application Tier** – Business logic (backend server)
+1. **Presentation Tier** – User interface (browser, app UI)  
+2. **Application Tier** – Business logic (backend server)  
 3. **Data Tier** – Database server
 
 ✅ Most common web architecture.  
@@ -80,7 +80,7 @@ Has three separate layers:
 
 ---
 
-## <span style="color:#E67E22;">🔢 N-Tier Architecture</span>
+## 🔢 N-Tier Architecture
 
 An advanced extension of 3-tier where more specialized layers are added, like:
 - Caching layer
@@ -88,12 +88,28 @@ An advanced extension of 3-tier where more specialized layers are added, like:
 - Load balancer
 - Microservices
 
+it use fireball on the apllication layer
+
 🏗️ Used in large, enterprise-level, distributed systems.  
 ⚙️ Each tier is independent, allowing better scaling and fault isolation.
 
 > 💡 **Example**: Netflix-like architecture using microservices, API gateway, and database shards.
 
+
 ---
 
+## 📝 Additional Notes
+
+- ⚖️ **Load vs. Quality of Service**:  
+  The **load** on the server is **inversely proportional** to the **quality of service**.  
+  > As server load increases, the performance and response time typically decrease.
+
+- ❗ **Single Point of Failure (SPOF)**:  
+  When a **central server** or critical component fails and causes the entire system to stop working, it is called a **Single Point of Failure (SPOF)**.  
+  > This is why distributed and redundant systems (as in N-tier) are preferred for high availability.
+
+
+
+<h1 style="color:#4A90E2;">🌐 Gmail Logic?</h1>
 
 
