@@ -97,3 +97,14 @@ An advanced extension of 3-tier where more specialized layers are added, like:
 
 
 
+
+
+| Feature                      | **Two-Tier Architecture**                   | **Three-Tier Architecture**                                 |
+| ---------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
+| **Layers**                   | 1. Client (UI + Logic)  <br> 2. Server (DB) | 1. Client (UI) <br> 2. App Server (Logic) <br> 3. DB Server |
+| **Where is business logic?** | On the **client side**                      | On a **separate middle-tier server**                        |
+| **Scalability**              | ❌ Limited – direct DB access from clients   | ✅ High – backend can scale independently                    |
+| **Security**                 | ❌ Lower – database is more exposed          | ✅ Higher – logic layer acts as a gatekeeper                 |
+| **Maintenance**              | ❌ Harder – logic tied to client             | ✅ Easier – logic centralized on server                      |
+| **Performance**              | ⚠️ Can suffer under load                    | ✅ Optimized for distributed loads                           |
+| **Example**                  | Java app → MySQL DB                         | React UI → Node.js API → MongoDB DB                         |

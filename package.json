@@ -1,0 +1,7 @@
+{
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^17.2.0",
+        "mine": "^0.1.0"
+    }
+}
