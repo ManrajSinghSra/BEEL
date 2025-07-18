@@ -1,0 +1,38 @@
+[
+    {
+        "orderId": "ORD1001",
+        "customer": "Amit Verma",
+        "status": "delivered",
+        "amount": 750
+    },
+    {
+        "orderId": "ORD1002",
+        "customer": "Riya Mehta",
+        "status": "pending",
+        "amount": 500
+    },
+    {
+        "orderId": "ORD1003",
+        "customer": "Arjun Rao",
+        "status": "delivered",
+        "amount": 1200
+    },
+    {
+        "orderId": "ORD1004",
+        "customer": "Neha Sharma",
+        "status": "delivered",
+        "amount": 900
+    },
+    {
+        "orderId": "ORD1005",
+        "customer": "Karan Singh",
+        "status": "cancelled",
+        "amount": 400
+    },
+    {
+        "orderId": "ORD1006",
+        "customer": "Simran Kaur",
+        "status": "delivered",
+        "amount": 670
+    }
+]
